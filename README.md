@@ -1,6 +1,6 @@
 # ruby-liquidsoap
 
-http://github.com/datafruits/ruby-liquidsoap
+http://github.com/mcfiredrill/ruby-liquidsoap
 
 ## DESCRIPTION:
 
