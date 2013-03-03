@@ -25,12 +25,12 @@ interface.
 require 'liquidsoap'
 
 l = Liquidsoap::Socket.new("/path/to/socket")
-l.send("update title=dudethatbe,artist=datafruits")
-metadata = l.send("icecast.metadata")
+l.write("update title=dudethatbe,artist=datafruits")
+metadata = l.write("icecast.metadata")
 
 l = Liquidsoap::Telnet.new("localhost") # default port is 1234
-l.send("update title=dudethatbe,artist=datafruits")
-metadata = l.send("icecast.metadata")
+l.write("update title=dudethatbe,artist=datafruits")
+metadata = l.write("icecast.metadata")
 ```
 
 ## REQUIREMENTS:
