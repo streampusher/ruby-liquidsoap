@@ -1,0 +1,11 @@
+Gemfile
+Gemfile.lock
+History.txt
+Manifest.txt
+README.md
+Rakefile
+lib/liquidsoap/telnet.rb
+lib/liquidsoap/socket.rb
+lib/liquidsoap.rb
+spec/liquidsoap/telnet.rb
+spec/liquidsoap/socket.rb
