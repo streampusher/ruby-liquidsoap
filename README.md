@@ -1,10 +1,12 @@
 # ruby-liquidsoap
 
+[![Build Status](https://img.shields.io/travis/mcfiredrill/ruby-liquidsoap/master.svg)](https://travis-ci.org/mcfiredrill/ruby-liquidsoap)
+
 http://github.com/mcfiredrill/ruby-liquidsoap
 
 ## DESCRIPTION:
 
-a ruby library for sending commands to liquidsoap via its telnet or socket 
+a ruby library for sending commands to liquidsoap via its telnet or socket
 interface.
 
 
