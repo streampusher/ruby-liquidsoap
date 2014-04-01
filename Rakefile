@@ -1,14 +1,6 @@
-# -*- ruby -*-
+require "bundler/gem_tasks"
+require 'rspec/core/rake_task'
 
-require "rubygems"
-require "hoe"
+RSpec::Core::RakeTask.new(:spec)
 
-Hoe.plugin :gemspec
-
-Hoe.spec "ruby-liquidsoap" do
-  developer("Tony Miller", "mcfiredrill@gmail.com")
-
-  # license "MIT" # this should match the license in the README
-end
-
-# vim: syntax=ruby
+task :default => :spec
