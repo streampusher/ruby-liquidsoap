@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/mcfiredrill/ruby-liquidsoap"
   s.rdoc_options = ["--main", "README.md"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = "ruby-liquidsoap"
   s.rubygems_version = "1.8.25"
   s.summary = "a ruby library for sending commands to liquidsoap via its telnet or socket  interface."
 
